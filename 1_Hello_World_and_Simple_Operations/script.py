@@ -1,5 +1,5 @@
-#Description: Simple script to print "Hello World" and make some numerical operations 
-#Author Nicolas (nicolas.mail@mailcom)
+# Description: Simple script to print "Hello World" and make some numerical operations 
+# Author Nicolas (nicolas.mail@mailcom)
 
 print('Hello World')
 
@@ -18,3 +18,11 @@ print(4 * 4)
 
 print('5 / 4 = ')
 print(5 / 4)
+
+# More operations
+
+print("2 * (3 + 4) = ")
+print(2 * (3 + 4))
+
+print("10 / 2 = ")
+print(10 / 2)
