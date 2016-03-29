@@ -39,6 +39,6 @@ print("\n")
 # Operations with minus sign
 
 print(-7)
-
-print("(-7 + 2) * (-4)")
-print(-7 + 2) * (-4)
+print("\n")
+print("(-7 + 2) * (-4) =")
+print((-7 + 2) * (-4))
