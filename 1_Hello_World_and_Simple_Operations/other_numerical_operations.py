@@ -15,6 +15,7 @@ print("\n")
 
 print("Remainder => 1.25 % .5 =")
 print(1.25 % .5)
+print("\n")
 
 
 # Result of a code
