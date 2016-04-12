@@ -21,3 +21,10 @@ if num > 5:
 	if num <= 47:
 		print("Between 5 and 47")
 
+# Else statements
+
+x = 4
+if x == 5:
+	print("Yes")
+else:
+	print("No")
