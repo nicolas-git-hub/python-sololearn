@@ -16,3 +16,30 @@ i = 9999
 while i >= 0:
     print(str(i) + " - in the loop")
     i = i - 1
+
+# While with "break". Using "break" outside the loop causes an error.
+
+i = 0
+while 1 == 1:
+    print(i)
+    i = i + 1
+    if i >= 5:
+        print("Breaking")
+        break
+
+print("Finished")
+
+# The "continue" statement don't break the loop, it just skips it
+
+i = 0
+while True:
+    i = i + 1
+    if i == 2:
+        print("Skipping 2")
+        continue
+    if i == 5:
+        print("Breaking")
+        break
+    print(i)
+
+print("Finished")
