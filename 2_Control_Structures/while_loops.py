@@ -11,3 +11,8 @@ while i <= 5:
     i = i + 1
 
 print("Finished")
+
+i = 9999
+while i >= 0:
+    print(str(i) + " - in the loop")
+    i = i - 1
