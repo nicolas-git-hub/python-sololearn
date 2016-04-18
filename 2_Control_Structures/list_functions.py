@@ -24,4 +24,33 @@ print(words)
 nums = [1, 3, 5, 2, 4]
 print(len(nums))
 
-# "len" is a function and not a method.
+# "len" is a function and not a method. No dot as in "append".
+
+"""
+The insert method is similar to append, except that it allows you
+to insert a new item at an position in the list, as opposed to just
+at the end
+"""
+
+words = ["Python", "fun"]
+index = 1
+words.insert(index, "is")
+print(words)
+
+
+nums = [9, 8, 7, 6, 5]
+nums.append(4)
+nums.insert(2, 11)
+print(nums)
+print(len(nums))
+
+"""
+The "index" method finds the first occurence of a list and returns its
+index.
+If the item isn't in the list, it raises a ValueError.
+"""
+
+letters =["p", "q", "r", "s", "p", "u"]
+print(letters.index("r"))
+print(letters.index("p"))
+print(letters.index("z"))
