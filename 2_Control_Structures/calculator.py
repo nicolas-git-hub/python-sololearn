@@ -1,10 +1,9 @@
-"""
-A simple calculator in Python.
-
-First section is the menu.
-This keeps on accepting user inputs until the user enters "quit", so
-a while loop is used.
-"""
+# A simple calculator in Python.
+#
+# First section is the menu.
+# This keeps on accepting user inputs until the user enters "quit", so
+# a while loop is used.
+#
 
 while True:
     print("Options:")
