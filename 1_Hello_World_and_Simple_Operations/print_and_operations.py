@@ -58,4 +58,4 @@ print("17 + 94) / (-5 + 5) =")
 print((17 + 94) / (-5 + 5))
 
 # The script stops on the first error.
-# "The second error only ocurrs if the first one is commented.
+# The second error only ocurrs if the first one is commented.
