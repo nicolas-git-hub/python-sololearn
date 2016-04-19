@@ -5,7 +5,7 @@
 
 num1 = 7
 num2 = 0
-# print(num1 / num2) <- code commented. 
+print(num1 / num2)
 
 # Different execptions are raised for different reasons.
 #
