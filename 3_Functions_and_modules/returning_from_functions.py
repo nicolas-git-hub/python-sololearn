@@ -1,8 +1,6 @@
-"""
-Certain functions, such as int or str, return a value
-that can be used later.
-To do this for your defined functions, you can use the return statement.
-"""
+# Certain functions, such as int or str, return a value
+# that can be used later.
+# To do this for your defined functions, you can use the return statement.
 
 def max(x, y):
     if x >= y:
@@ -24,11 +22,8 @@ def shortest_string(x, y):
 
 print(shortest_string("This string has characters.", "This string has more characters."))
 
-
-"""
-Once you return a value from a function, it immediately stops being executed.
-Any code after the return statement will never happen.
-"""
+# Once you return a value from a function, it immediately stops being executed.
+# Any code after the return statement will never happen.
 
 def add_numbers(x, y):
     total = x + y
