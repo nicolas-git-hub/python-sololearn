@@ -41,7 +41,8 @@ print("\n")
 file = open("files/lorem_ipsum.txt", "r")
 file_read = file.read()
 
-# Here you define how many characters is going to appear on each line
+# Here you define how many characters of the file are going to appear
+# on each line
 characters_per_line = 80
 
 floor_division = len(file_read) // characters_per_line
@@ -61,3 +62,39 @@ if division_remainder != 0:
     print (str(i + 1) + " - " + file.read(division_remainder))
 
 file.close()
+
+#
+# As we just saw, after all contents in a file have been read, any
+# attempts to read futher from that that file will return an empty
+# string, because you are trying to read from the end of the file.
+
+print("\n")
+
+file = open("files/lorem_ipsum.txt", "r")
+file.read()
+print("Re-reading")
+print(file.read())
+print("Finished")
+file.close()
+
+#
+# Retriving lines of a text file
+#
+# To retrive lines in a file, you can use the "readlines" function
+# to return a list in which each element is a line in the file
+
+file = open("files/countries.txt", "r")
+print(file.readlines())
+file.close()
+
+#
+# You can also use a for loop to iterate through the lines in the file:
+
+file = open("files/countries.txt", "r")
+for line in file:
+    print(line)
+
+file.close()
+
+# In the output, the lines are separated by blank lines, as the print
+# function automatically adds a new line at the end of its output
