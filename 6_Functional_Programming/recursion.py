@@ -23,5 +23,35 @@ def factorial(x):
 print(factorial(5))
 
 
-#
 # The base case acts as the exit condition of the recursion.
+
+
+# Recursive functions can be infinite, just like infinite while loops.
+# These often occur when you forget to implement the base case.
+# Below is an incorrect version of the factorial function.
+# It has no base case, so it runs until the interpreter runs out of memory an crashes.
+
+# def my_factorial(x):                    # Block commented so the rest of the script could run.
+#     return x * my_factorial(x - 1)
+
+# print(my_factorial(5))
+
+
+#
+# Recursion can also be indirect.
+# One function can call a second, which calls the first, which calls the second, and so on.
+# This occur with any number of functions.
+#
+# Example:
+
+def is_even(x):
+    if x == 0:
+        return True
+    else:
+        return is_odd(x - 1)
+
+def is_odd(x):
+    return not is_even(x)
+
+print(is_odd(17))
+print(is_even(23))
