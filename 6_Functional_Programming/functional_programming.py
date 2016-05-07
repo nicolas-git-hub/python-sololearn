@@ -39,8 +39,22 @@ def pure_function(x, y):
 
 some_list = []
 
-def impure(arg)
+def impure(arg):
     some_list.append(arg)
 
 #
 # The function above is not pure, because it changed the state of some_list
+#
+# Pure functions has both advantages and disavantages:
+#
+# Pure functions are:
+# - easier to reason about and test;
+# - more efficient. # Once the function has been evaluated for an input, the result can be stored
+# and refered to the next time the function of that input is needed, reducing
+# the number of times the function is called.
+# This is called memorization.
+# - easier to run in parallel.
+#
+# The main disavantage of using only pure functions is that they mojorly complicate the otherwise
+# simple task of I/O since this appears to inherently require side effects.
+# They can also be more difficult to write in some situations.
